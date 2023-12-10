@@ -1,6 +1,11 @@
-a = input()
-b = input()
+a = int(input())
+b = int(input())
 
 if a == b:
-    print('ничья')
+    print('Ничья')
+elif a > b:
+    print(f'цифра - {a}, выиграла')
+else:
+    print(f'цифра - {b}, выиграла')
 
+print('Вы молодец!')
