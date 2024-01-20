@@ -1,11 +1,5 @@
-import itertools
-num = int(input('Введите число: '))
+n = int(input())
 
-list = []
+list1 = [[1], [1, 1]]
 
-while num > 0:
-    word = set(input())
-    list.append(word)
-    num -= 1
-
-print(list)
+for i in range(1, n):
