@@ -5,3 +5,6 @@ for i in range(n):
     list1.append(s)
     print(list1[i])
 
+while n > 0:
+    print(list1[n - 1])
+    n -= 1
