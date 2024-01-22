@@ -8,3 +8,16 @@ for i in range(n):
 while n > 0:
     print(list1[n - 1])
     n -= 1
+
+c = int(input('введите число: '))
+m = int(input('введите число: '))
+
+
+def test(m, c):
+    res = m + c
+    return res
+
+
+b = test(n, c)
+print(b)
+
